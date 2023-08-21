@@ -3,7 +3,6 @@ import { BrowserRouter as Router, Routes, Route } from 'react-router-dom'; // No
 import Footer from './components/footer/Footer';
 import Navbar from './components/navbar/Navbar';
 import Home from './components/home/Home';
-import WhatWeDo from './components/whatwedo/WhatWeDo';
 import ContactUs from './components/contactus/ContactUs';
 import WhoWeAre from './components/whoweare/WhoWeAre'; 
 import WhoWeArePage from './components/whoweare/WhoWeArePage';
@@ -16,10 +15,9 @@ const App = () => {
         <Navbar />
         <Routes> 
           <Route path="/" element={<Home />} />
-          <Route path="/who-we-are" element={<WhoWeAre />} />
-          <Route path="/who-we-are" element={<WhoWeArePage />} />
-          <Route path="/what-we-do" element={<WhatWeDo />} />
-          <Route path="/our-projects" element={<OurProjects />} />
+          <Route path="/about-us" element={<AboutUs />} />
+          <Route path="/services" element={<Services/>} />
+          <Route path="/gallery" element={<Gallery/>} />
           <Route path="/contact-us" element={<ContactUs />} />
         </Routes>
         <Footer />
