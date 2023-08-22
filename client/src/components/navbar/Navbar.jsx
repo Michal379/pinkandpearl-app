@@ -1,16 +1,34 @@
 import React from 'react';
-import { Link } from 'react-router-dom'; // If you're using React Router for navigation
+import { Link } from 'react-router-dom';
+import logoimage from '../../images/logoimage.png';
+
+import './Navbar.css'; // Import a CSS file for styles (create if not already present)
 
 const Navbar = () => {
   return (
-    <nav>
-      <ul>
-        <li><Link to="/">Home</Link></li>
-        <li><Link to="/about">About Us</Link></li>
-        <li><Link to="/services">Services</Link></li>
-        <li><Link to="/gallery">Gallery</Link></li>
-        <li><Link to="/contact">Contact Us</Link></li>
+    <nav className="navbar">
+      {/* Logo */}
+      <div className="logo-container">
+        <img src={logoimage} alt="Logo" className="logo" />
+      </div>
+      <ul className="nav-links">
+        <li className="nav-item">
+          <Link to="/" className="link">Home</Link>
+        </li>
+        <li className="nav-item">
+          <Link to="/about-us" className="link">About Us</Link>
+        </li>
+        <li className="nav-item">
+          <Link to="/services" className="link">Services</Link>
+        </li>
+        <li className="nav-item">
+          <Link to="/gallery" className="link">Gallery</Link>
+        </li>
+        <li className="nav-item">
+          <Link to="/contact-us" className="link">Contact Us</Link>
+        </li>
       </ul>
+      <Link to="/book-now" className="book-button">BOOK NOW</Link>
     </nav>
   );
 }
