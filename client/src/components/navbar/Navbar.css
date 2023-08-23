@@ -45,7 +45,7 @@ nav {
 }
 
 .book-now-button button {
-  background-color:hsla(330, 91%, 60%, 0.959);
+  background-color:#ff66b2;
   border: none;
   color: #fff;
   padding: 8px 12px;
@@ -55,7 +55,7 @@ nav {
 }
 
 .book-now-button button:hover {
-  background-color: light blue;
+  background-color:  #dc2380;
 }
 
 .social-icons {
@@ -70,7 +70,7 @@ nav {
   justify-content: center;
   width: 36px; /* Adjust size as needed */
   height: 36px; /* Adjust size as needed */
-  background-color: pink;
+  background-color: #ff66b2;;
   border-radius: 50%; /* Make it a circle */
   margin-left: 10px; /* Add space between icons */
   font-size: 18px; /* Adjust icon size as needed */
@@ -80,7 +80,7 @@ nav {
 }
 
 .social-icons a:hover {
-  background-color: #ff66b2; /* Change color on hover */
+  background-color: #dc2380; /* Change color on hover */
 }
 
   
