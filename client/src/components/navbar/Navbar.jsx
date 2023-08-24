@@ -1,21 +1,22 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faInstagram, faFacebook, faTwitter } from '@fortawesome/free-brands-svg-icons';
 import './Navbar.css';
-import logoimage from '../../images/logoimage.png'; // Import the logo image with the correct variable name
+import logoimage from '../../images/logoimage.png';
 
 const Navbar = () => {
   return (
     <nav>
-       <div className='logo'>
+      <div className='logo'>
         <img src={logoimage} alt="Logo" />
       </div>
       <ul>
-        <li><a href="/">Home</a></li>
-        <li><a href="/about">About Us</a></li>
-        <li><a href="/services">Services</a></li>
-        <li><a href="/gallery">Gallery</a></li>
-        <li><a href="/contact">Contact Us</a></li>
+        <li><Link to="/">Home</Link></li>
+        <li><Link to="/about">About Us</Link></li>
+        <li><Link to="/services">Services</Link></li>
+        <li><Link to="/gallery">Gallery</Link></li>
+        <li><Link to="/contact">Contact Us</Link></li>
         <li className="book-now-button">
           <button>BOOK NOW</button>
         </li>
