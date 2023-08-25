@@ -1,0 +1,17 @@
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 2rem;
+  }
+  
+  .image {
+    max-width: 20%; 
+    margin-right: 0rem; /* Reduced margin for spacing */
+  }
+  
+  .text {
+    max-width: 80%;
+    padding-left: 2rem; /* Adding padding to create space between image and text */
+  }
+  

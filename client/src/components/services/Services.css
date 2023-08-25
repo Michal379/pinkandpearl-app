@@ -1,0 +1,13 @@
+.services-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    color: white;
+  }
+
+.background-image {
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+  }
