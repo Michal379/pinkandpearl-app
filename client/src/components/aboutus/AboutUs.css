@@ -1,17 +1,28 @@
 .container {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin: 2rem;
-  }
+  display: flex; /* Use flexbox to create a two-column layout */
+  align-items: center; /* Vertically center the content */
+  justify-content: space-between; /* Add space between the image and text */
+  padding: 20px; /* Add some padding for spacing */
+}
+
+.image {
+  flex: 1; /* Allow the image to grow and take up available space */
+  margin-right: 55px; /* Add some margin to the right of the image */
+}
+
+.image img {
+  max-width: 100%; 
+  height: auto; 
+}
+
+h2{
+  font-style: var(12px);
+}
+
+.text {
+  flex: 1; 
+  font-size: 12px; 
   
-  .image {
-    max-width: 20%; 
-    margin-right: 0rem; /* Reduced margin for spacing */
-  }
-  
-  .text {
-    max-width: 80%;
-    padding-left: 2rem; /* Adding padding to create space between image and text */
-  }
-  
+
+}
+
