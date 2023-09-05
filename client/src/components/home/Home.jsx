@@ -10,7 +10,7 @@ const Home = () => {
   const [activeIndex, setActiveIndex] = useState(0);
 
   const images = [
-    "https://pinkandpearlwaxingbar.com/wp-content/uploads/2023/02/working-hours-banner.jpg",  
+    "https://cdn.standardmedia.co.ke/images/wysiwyg/images/LvZBSf7NyEr7eYcfyjUmX3Yd3h1XhJEyTbiuyYBD.jpg",  
     "https://pinkandpearlwaxingbar.com/wp-content/uploads/2023/02/gallery-02.jpg",
     "https://pinkandpearlwaxingbar.com/wp-content/uploads/2023/02/WhatsApp-Image-2023-02-08-at-2.13.34-PM-2.jpeg",    
   ];

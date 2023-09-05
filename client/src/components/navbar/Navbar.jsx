@@ -21,9 +21,9 @@ const Navbar = () => {
           <button>BOOK NOW</button>
         </li>
         <li className="social-icons">
-          <a href="#"><FontAwesomeIcon icon={faInstagram} /></a>
-          <a href="#"><FontAwesomeIcon icon={faFacebook} /></a>
-          <a href="#"><FontAwesomeIcon icon={faTwitter} /></a>
+          <a href="https://www.instagram.com/pinkandpearlwaxingbar/"><FontAwesomeIcon icon={faInstagram} /></a>
+          <a href="https://www.facebook.com/profile.php?id=100085764224011"><FontAwesomeIcon icon={faFacebook} /></a>
+          <a href="https://twitter.com/Pink_PearlBar"><FontAwesomeIcon icon={faTwitter} /></a>
         </li>
       </ul>
     </nav>
