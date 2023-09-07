@@ -10,25 +10,31 @@ const Home = () => {
   const [activeIndex, setActiveIndex] = useState(0);
 
   const images = [
-    "https://cdn.standardmedia.co.ke/images/wysiwyg/images/LvZBSf7NyEr7eYcfyjUmX3Yd3h1XhJEyTbiuyYBD.jpg",  
+    "https://cdn.standardmedia.co.ke/images/wysiwyg/images/LvZBSf7NyEr7eYcfyjUmX3Yd3h1XhJEyTbiuyYBD.jpg",
     "https://pinkandpearlwaxingbar.com/wp-content/uploads/2023/02/gallery-02.jpg",
-    "https://pinkandpearlwaxingbar.com/wp-content/uploads/2023/02/WhatsApp-Image-2023-02-08-at-2.13.34-PM-2.jpeg",    
+    "https://pinkandpearlwaxingbar.com/wp-content/uploads/2023/02/WhatsApp-Image-2023-02-08-at-2.13.34-PM-2.jpeg",
   ];
 
-  // Define your captions here
+  // Define your captions here with both parts
   const captions = [
-    "Working Hours Banner\\nQuality Waxing Services",
-    "Gallery\\nExplore Our Portfolio",
-    "Visit Us Today\\nBook an Appointment"
+    {
+      firstPart: "Welcome To",
+      secondPart: "PINK AND PEARL WAXING BAR",
+    },
+    {
+      firstPart: "Welcome To",
+      secondPart: "PINK AND PEARL WAXING BAR",
+    },
+    {
+      firstPart: "Welcome To",
+      secondPart: "PINK AND PEARL WAXING BAR",
+    },
   ];
-
-  const capitalCaptions = captions.map((caption) => caption.split('\\n')[0]);
-  const smallCaptions = captions.map((caption) => caption.split('\\n')[1]);
 
   useEffect(() => {
     const interval = setInterval(() => {
       setActiveIndex((prevIndex) => (prevIndex + 1) % images.length);
-    }, 5000); // Change image every 5 seconds
+    }, 10000); // Change image every 10 seconds
 
     return () => clearInterval(interval);
   }, [images.length]);
@@ -45,16 +51,18 @@ const Home = () => {
                 alt={`Slide ${index + 1}`}
                 style={{ maxWidth: '100%', maxHeight: '80vh', objectFit: 'cover' }}
               />
-              <div className="carousel-caption-top">
-                <h3 className="caption-text">{capitalCaptions[index]}</h3>
-                <p className="caption-text-small">{smallCaptions[index]}</p>
+              <div className="carousel-caption">
+                <h3 className="caption-text">
+                  <span className="first-part">{captions[index].firstPart}</span><br />
+                  <span className="second-part">{captions[index].secondPart}</span>
+                </h3>
               </div>
             </div>
           ))}
         </div>
         {/* ... (carousel controls) ... */}
       </div>
-      
+
       {/* Render the AboutUs component */}
       <AboutUs />
       <Services />

@@ -1,0 +1,20 @@
+/* Home.css */
+.carousel-caption {
+    display: flex;
+    flex-direction: column;
+    justify-content: center; /* Center vertically */
+    align-items: center; /* Center horizontally */
+    text-align: center; /* Center text within the caption */
+    height: 100%; /* Ensure the caption takes up the full height of the carousel item */
+  }
+  
+  .caption-text {
+    font-size: 24px; /* Adjust the font size as needed */
+    font-weight: bold; /* Make the font bold */
+  }
+  
+  .second-part {
+    font-size: 18px; /* Adjust the font size for the second part */
+    font-weight: normal; /* Remove boldness from the second part */
+  }
+  
