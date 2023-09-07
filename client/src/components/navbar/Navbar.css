@@ -27,6 +27,92 @@ nav {
   li {
     margin: 0 15px;
   }
+  nav {
+    background-color: #f6f5f5;
+    color: gray;
+    padding: 10px 0;
+  }
+
+  .logo {
+    display: flex;
+    align-items: center;
+    margin-left: 20px;
+  }
+  
+  .logo img {
+    width: 100px; /* Adjust the width as needed */
+    height: auto; /* Maintain aspect ratio */
+  }
+  
+  ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+  }
+  
+  li {
+    margin: 0 15px;
+  }
+  
+  a {
+    text-decoration: none;
+    color: rgb(70, 66, 66);
+    font-weight: bold;
+    transition: color 0.3s;
+  }
+  
+  a:hover {
+    color: black;
+  }
+
+  /* Style for "BOOK NOW" button */
+.book-now-button {
+  margin-left: 15px;
+}
+
+.book-now-button button {
+  background-color:#ff66b2;
+  border: none;
+  color: #fff;
+  padding: 8px 12px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.book-now-button button:hover {
+  background-color:  #dc2380;
+}
+
+.social-icons {
+  display: flex;
+  align-items: center;
+  margin-left: 15px; /* Add space between "BOOK NOW" button and social icons */
+}
+
+.social-icons a {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 36px; /* Adjust size as needed */
+  height: 36px; /* Adjust size as needed */
+  background-color: #ff66b2;;
+  border-radius: 50%; /* Make it a circle */
+  margin-left: 10px; /* Add space between icons */
+  font-size: 18px; /* Adjust icon size as needed */
+  color: #fff;
+  text-decoration: none;
+  transition: background-color 0.3s;
+}
+
+.social-icons a:hover {
+  background-color: #dc2380; /* Change color on hover */
+}
+
+  
   
   a {
     text-decoration: none;
