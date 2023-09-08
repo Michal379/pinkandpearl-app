@@ -56,6 +56,7 @@ const Home = () => {
                   <span className="first-part">{captions[index].firstPart}</span><br />
                   <span className="second-part">{captions[index].secondPart}</span>
                 </h3>
+                <button className="make-appointment-button">Make An Appointment</button>
               </div>
             </div>
           ))}

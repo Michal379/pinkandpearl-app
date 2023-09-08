@@ -9,12 +9,28 @@
   }
   
   .caption-text {
-    font-size: 24px; /* Adjust the font size as needed */
+    font-size: 32px; /* Adjust the font size as needed */
     font-weight: bold; /* Make the font bold */
   }
   
   .second-part {
-    font-size: 18px; /* Adjust the font size for the second part */
-    font-weight: normal; /* Remove boldness from the second part */
+    font-size: 42px; /* Adjust the font size for the second part */
+    font-weight: bold; /* Make the font bold */
   }
+
+.make-appointment-button {
+  background-color:  #ff66b2;
+  color: white;
+  padding: 10px 20px;
+  font-size: 18px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 20px;
+  transition: background-color 0.3s ease;
+}
+
+.make-appointment-button:hover {
+  background-color: #dc2380; /* Change the color on hover if desired */
+}
   
