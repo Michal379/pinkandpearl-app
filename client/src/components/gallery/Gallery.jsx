@@ -1,4 +1,5 @@
 import React from 'react';
+import Card from 'react-bootstrap/Card';
 import './Gallery.css'
 
 const Gallery = () => {
@@ -31,14 +32,13 @@ const Gallery = () => {
   for (let i = 0; i < imageUrls.length; i += imagesPerRow) {
     const rowImages = imageUrls.slice(i, i + imagesPerRow);
     rows.push(
-      <div className="gallery-row" key={i}>
+      <div className="row" key={i}> {/* Wrap each row in a 'row' div */}
         {rowImages.map((imageUrl, index) => (
-          <img
-            key={index}
-            src={imageUrl}
-            alt={`Gallery Image ${i + index + 1}`}
-            className="gallery-image"
-          />
+          <div className="col-md-3" key={index}>
+            <Card className="gallery-card">
+              <Card.Img src={imageUrl} alt={`Gallery Image ${i + index + 1}`} className="gallery-image" />
+            </Card>
+          </div>
         ))}
       </div>
     );

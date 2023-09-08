@@ -1,13 +1,70 @@
-.services-container {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    min-height: 100vh;
-    color: white;
-  }
+/* Services.css */
 
+/* Center the content vertically and horizontally */
+.services-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  color: white;
+}
+
+/* Background image styles */
 .background-image {
-    background-repeat: no-repeat;
-    background-position: center center;
-    background-size: cover;
-  }
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+}
+
+/* Add padding to the container to create space around the cards */
+.services-container {
+  padding: 20px;
+}
+
+/* Style for the row containing cards */
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between; /* Add space between the cards on each side */
+}
+
+/* Style for each column (card) */
+.col-md-6 {
+  flex: 0 0 calc(50% - 10px); /* Calculate column width with space between them */
+  margin-bottom: 20px; /* Add space between each card */
+}
+
+/* Card styles */
+.card {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  border: none;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* Card body styles */
+.card-body {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+/* Card title styles */
+.card-title {
+  font-weight: bold;
+  font-size: 18px;
+}
+
+/* Card text styles */
+.card-text {
+  margin-top: 10px;
+  font-size: 16px;
+}
+
+.pink-icon {
+  color: rgb(255, 123, 167);
+}
