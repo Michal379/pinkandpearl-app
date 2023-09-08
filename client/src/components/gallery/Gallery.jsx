@@ -32,9 +32,9 @@ const Gallery = () => {
   for (let i = 0; i < imageUrls.length; i += imagesPerRow) {
     const rowImages = imageUrls.slice(i, i + imagesPerRow);
     rows.push(
-      <div className="row" key={i}> {/* Wrap each row in a 'row' div */}
+      <div className="row" key={i}>
         {rowImages.map((imageUrl, index) => (
-          <div className="col-md-3" key={index}>
+          <div className="col-md-3 mx-auto" key={index}>
             <Card className="gallery-card">
               <Card.Img src={imageUrl} alt={`Gallery Image ${i + index + 1}`} className="gallery-image" />
             </Card>
