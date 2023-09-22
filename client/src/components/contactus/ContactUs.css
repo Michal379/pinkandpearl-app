@@ -36,7 +36,7 @@
     font-size: 16px;
     outline: none; /* Remove the default input focus outline */
     margin-bottom: 20px;
-  } 
+  }  
 
   /* Increase the width for the textarea as needed */
 .single-line-input[type="textarea"] {
@@ -65,4 +65,5 @@
   button.get-in-touch-button:hover {
     background-color: #78d5d7;
   }
+
   

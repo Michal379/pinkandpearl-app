@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import image from '../images/leave2.jpg';
-import './ContactUs.css'; // Import your CSS file for additional styling
+import './ContactUs.css'; 
+import Map from './map';
 
 const ContactUs = () => {
   const [formData, setFormData] = useState({
@@ -33,6 +34,7 @@ const ContactUs = () => {
   };
 
   return (
+    <>
     <div className="contact-us" style={backgroundStyle}>
       <div className="card">
         <h2>CONTACT US TODAY</h2>
@@ -98,8 +100,8 @@ const ContactUs = () => {
           </button>
           </div>
         </form>
-      </div>
-      <div>
+      </div> 
+      <div className='contact-info'>
         <h5>Contact Us</h5>
         <h2>HAVE QUESTIONS?</h2>
         <h2>GET IN TOUCH!</h2>
@@ -117,9 +119,12 @@ const ContactUs = () => {
     <a href="https://twitter.com/Pink_PearlBar">
       <i className="fab fa-twitter"></i> {/* Font Awesome Twitter icon */}
     </a>
-  </div>
-      </div>
     </div>
+   </div>
+  </div>
+  <Map />
+  </>
+       
   );
 };
 
