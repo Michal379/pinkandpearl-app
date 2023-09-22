@@ -80,7 +80,7 @@ const ContactUs = () => {
         <button type="submit" className="get-in-touch-button">
           GET IN TOUCH
         </button>
-      </form>
+      </form>8
     </div>
   );
 };

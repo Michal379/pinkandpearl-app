@@ -34,9 +34,13 @@ const Gallery = () => {
     rows.push(
       <div className="row" key={i}>
         {rowImages.map((imageUrl, index) => (
-          <div className="col-md-3 mx-auto" key={index}>
-            <Card className="gallery-card">
-              <Card.Img src={imageUrl} alt={`Gallery Image ${i + index + 1}`} className="gallery-image" />
+          <div className="col-md-3" key={index}>
+            <Card>
+              <Card.Img
+                src={imageUrl}
+                alt={`Gallery Image ${i + index + 1}`}
+                className="gallery-image img-fluid" // Add the 'img-fluid' class for responsive images
+              />
             </Card>
           </div>
         ))}
@@ -44,7 +48,15 @@ const Gallery = () => {
     );
   }
 
-  return <div className="gallery-container">{rows}</div>;
+  return (
+    <div className="container">
+      <div className="row justify-content-center">
+        <div className="col-lg-12">
+          {rows}
+        </div>
+      </div>
+    </div>
+  );
 };
 
 export default Gallery;
