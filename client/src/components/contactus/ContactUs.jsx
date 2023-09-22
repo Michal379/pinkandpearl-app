@@ -99,6 +99,26 @@ const ContactUs = () => {
           </div>
         </form>
       </div>
+      <div>
+        <h5>Contact Us</h5>
+        <h2>HAVE QUESTIONS?</h2>
+        <h2>GET IN TOUCH!</h2>
+        <p>Along Thika road at Nairoview Plaza Kihunguro next to Shell Petrol station a stage just past bypass but before u get to Ruiru town</p>
+        <p>Along Kenyatta Avenue at 680 Hotel building, second floor RM 210, 680 hotel building is directly opposite I&M bank building</p>
+        <a href="mailto:info@pinkandpearlwaxingbar.com"></a>
+        <p>Call/text/Whatsapp 0712814050/0712570294</p>
+        <div className="social-icons">
+    <a href="https://www.instagram.com/pinkandpearlwaxingbar/">
+      <i className="fab fa-instagram"></i> {/* Font Awesome Instagram icon */}
+    </a>
+    <a href="https://www.facebook.com/profile.php?id=100085764224011">
+      <i className="fab fa-facebook"></i> {/* Font Awesome Facebook icon */}
+    </a>
+    <a href="https://twitter.com/Pink_PearlBar">
+      <i className="fab fa-twitter"></i> {/* Font Awesome Twitter icon */}
+    </a>
+  </div>
+      </div>
     </div>
   );
 };
