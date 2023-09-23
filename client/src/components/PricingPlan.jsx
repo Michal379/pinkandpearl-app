@@ -1,8 +1,16 @@
 import React from 'react';
 
 const PricingPlan = () => {
+    const containerStyle = {
+        display: 'flex',
+        flexDirection: 'column',
+        alignItems: 'center',
+        textAlign: 'center',
+        paddingTop: '20px', // Add padding to center vertically
+      };
+    
   return (
-    <div>
+    <div style={containerStyle}>
       <h4>PricingPlan</h4>
       <h2>SERVICES & PRICING</h2>
       <div>
