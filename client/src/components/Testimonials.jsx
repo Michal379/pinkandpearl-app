@@ -1,5 +1,5 @@
 import React from 'react';
-import backgroundImage from './images/Testimonials.jpeg';
+import backgroundImage from './images/tt.jpeg';
 
 const Testimonials = () => {
   const containerStyle = {
@@ -28,3 +28,4 @@ const Testimonials = () => {
 };
 
 export default Testimonials;
+

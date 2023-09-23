@@ -7,6 +7,7 @@ import Services from '../services/Services';
 import Gallery from '../gallery/Gallery';
 import ContactUs from '../contactus/ContactUs';
 import Testimonials from '../Testimonials';
+import PricingPlan from '../PricingPlan';
 
 const Home = () => {
   const [activeIndex, setActiveIndex] = useState(0);
@@ -70,6 +71,7 @@ const Home = () => {
       <AboutUs />
       <Services />
       <Testimonials />
+      <PricingPlan />
       <Gallery />
       <ContactUs />
     </div>
