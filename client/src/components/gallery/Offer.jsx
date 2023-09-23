@@ -7,7 +7,7 @@ const Offer = () => {
     backgroundSize: 'cover',
     backgroundRepeat: 'no-repeat',
     backgroundAttachment: 'fixed',
-    minHeight: '60vh',
+    minHeight: '50vh',
     display: 'flex',
     flexDirection: 'column',
     justifyContent: 'center',
