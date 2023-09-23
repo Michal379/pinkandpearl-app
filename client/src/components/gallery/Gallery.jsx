@@ -4,6 +4,7 @@ import './Gallery.css';
 // import GalleryModal from './GalleryModal';
 import Modal from 'react-bootstrap/Modal';
 import Button from 'react-bootstrap/Button';
+import Offer from './Offer';
 
 
 const Gallery = () => {
@@ -51,6 +52,8 @@ const Gallery = () => {
   };
 
   return (
+    <div>
+    <Offer />
     <div className="container">
       <div className="row">
         {imageUrls.map((imageUrl, index) => (
@@ -98,6 +101,7 @@ const Gallery = () => {
           )}
         </Modal.Footer>
       </Modal>
+    </div>
     </div>
   );
 };

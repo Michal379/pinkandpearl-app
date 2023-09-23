@@ -36,7 +36,7 @@ const ContactUs = () => {
   return (
     <>
     <div className="contact-us" style={backgroundStyle}>
-      <div className="card">
+      <div className="contact-card">
         <h2>CONTACT US TODAY</h2>
         <form onSubmit={handleSubmit}>
           <div className="form-group">

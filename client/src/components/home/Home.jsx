@@ -5,6 +5,7 @@ import './Home.css';
 import AboutUs from '../aboutus/AboutUs';
 import Services from '../services/Services';
 import Gallery from '../gallery/Gallery';
+import ContactUs from '../contactus/ContactUs';
 
 const Home = () => {
   const [activeIndex, setActiveIndex] = useState(0);
@@ -68,6 +69,7 @@ const Home = () => {
       <AboutUs />
       <Services />
       <Gallery />
+      <ContactUs />
     </div>
   );
 };
