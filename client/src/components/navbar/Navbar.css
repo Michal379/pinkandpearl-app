@@ -45,6 +45,7 @@ nav {
     background-color: #ff66b2; /* Pink color for the underline */
     opacity: 0; /* Initially hidden */
     transition: opacity 0.3s ease-in-out; /* Add a smooth transition */
+    font-family: inherit;      
   }
 
 li a:hover::after {
@@ -57,7 +58,7 @@ li a:hover::after {
 }
 
 .book-now-button button {
-  background-color:#ff66b2;
+  background-color:#FF5C8A;
   border: none;
   color: #fff;
   padding: 8px 12px;

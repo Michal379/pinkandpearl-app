@@ -15,8 +15,13 @@
   height: auto; 
 }
 
-h2{
-  font-style: var(12px);
+.abouth2{
+  font-family: "Mr De Haviland",cursive;
+  color: #ff5c8a;;
+}
+
+.h2h2h2{
+  /* font-family: inherit; */
 }
 
 .text {

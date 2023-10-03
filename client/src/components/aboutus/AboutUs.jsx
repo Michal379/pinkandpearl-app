@@ -9,9 +9,9 @@ const AboutUs = () => {
         <img src={image} alt="About Us" /> 
       </div>
       <div className="text">
-        <h2>About Us</h2>
-        <h2>AFFORDABLE WAXING IN </h2>
-        <h2>NAIROBI</h2>
+        <h2 className='abouth2'>About Us</h2>
+        <h2 className='h2h2h2'>AFFORDABLE WAXING IN </h2>
+        <h2 className='h2h2h2'>NAIROBI</h2>
         <p>
           <p>
           Welcome to the best waxing parlor in Nairobi, where Quality and </p>         
