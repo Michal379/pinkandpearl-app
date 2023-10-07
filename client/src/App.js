@@ -6,6 +6,7 @@ import AboutUs from './components/aboutus/AboutUs';
 import Services from './components/services/Services';
 import Gallery from './components/gallery/Gallery';
 import ContactUs from './components/contactus/ContactUs';
+import Testimonials from './components/Testimonials';
 
 const App = () => {
   return (
@@ -13,6 +14,7 @@ const App = () => {
       <Navbar />
       <Routes>
         <Route path="/" element={<Home />} />
+        <Route path="/testimonials" element={<Testimonials />} />
         <Route path="/about" element={<AboutUs />} />
         <Route path="/services" element={<Services />} />
         <Route path="/gallery" element={<Gallery />} />

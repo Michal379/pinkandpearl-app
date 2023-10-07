@@ -6,7 +6,7 @@ import AboutUs from '../aboutus/AboutUs';
 import Services from '../services/Services';
 import Gallery from '../gallery/Gallery';
 import ContactUs from '../contactus/ContactUs';
-import Testimonials from '../Testimonials';
+// import Testimonials from '../Testimonials';
 import PricingPlan from '../PricingPlan';
 
 const Home = () => {
@@ -70,7 +70,7 @@ const Home = () => {
       {/* Render the AboutUs component */}
       <AboutUs />
       <Services />
-      <Testimonials />
+      {/* <Testimonials /> */}
       <PricingPlan />
       <Gallery />
       <ContactUs />
