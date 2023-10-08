@@ -1,5 +1,8 @@
 import React from 'react';
 import backgroundImage from './images/tt.jpeg';
+import Slider from 'react-slick';
+import 'slick-carousel/slick/slick.css';
+import 'slick-carousel/slick/slick-theme.css';
 
 const Testimonials = () => {
   const containerStyle = {
@@ -36,6 +39,13 @@ const Testimonials = () => {
     backgroundColor: '#c79939', // Hover color
   };
 
+  const sliderSettings = {
+    dots: true, // Show navigation dots
+    infinite: true, // Enable infinite loop
+    speed: 500, // Transition speed in milliseconds
+    slidesToShow: 1, // Number of slides to show at once
+    slidesToScroll: 1, // Number of slides to scroll at once
+  };
 
   const reviewData = [
     {
