@@ -7,11 +7,11 @@ const PricingPlan = () => {
         alignItems: 'center',
         textAlign: 'center',
         paddingTop: '20px', // Add padding to center vertically
-      };
+      };      
     
   return (
     <div style={containerStyle}>
-      <h4>PricingPlan</h4>
+     <h4 style={{ fontFamily: "'Mr De Haviland', cursive", letterSpacing: '0.95px', color: '#ff5c8a' }}>Pricing Plan</h4>
       <h2>SERVICES & PRICING</h2>
       <div>
         <div>

@@ -122,10 +122,17 @@ return (
         <h5 style={wordsStyle}>Contact Us</h5>
         <h2 style={wordsStyle}>HAVE QUESTIONS?</h2>
         <h2 style={wordsStyle}>GET IN TOUCH!</h2>
-        <p style={wordsStyle}>Along Thika road at Nairoview Plaza Kihunguro next to Shell Petrol station a stage just past bypass but before u get to Ruiru town</p>
-        <p style={wordsStyle}>Along Kenyatta Avenue at 680 Hotel building, second floor RM 210, 680 hotel building is directly opposite I&M bank building</p>
+        <p>        
+        <p style={wordsStyle}> <i className="fas fa-map-marker-alt"></i>  Along Thika road at Nairoview Plaza Kihunguro next to Shell</p>
+        <p style={wordsStyle}>Petrol station a stage just past bypass but before u get to Ruiru</p>
+        <p style={wordsStyle}>town</p>
+        </p>
+        <p>
+        <p style={wordsStyle}> <i className="fas fa-map-marker-alt"></i>  Along Kenyatta Avenue at 680 Hotel building, second floor RM 210,</p>
+        <p style={wordsStyle}> 680 hotel building is directly opposite I&M bank building</p>
+        </p>
         <a href="mailto:info@pinkandpearlwaxingbar.com" style={wordsStyle}></a>
-        <p style={wordsStyle}>Call/text/Whatsapp 0712814050/0712570294</p>
+        <p style={wordsStyle}>Call/text/Whatsapp <strong>0712814050/0712570294</strong></p>
         <div className="social-icons">
           <a href="https://www.instagram.com/pinkandpearlwaxingbar/">
             <i className="fab fa-instagram"></i> {/* Font Awesome Instagram icon */}
