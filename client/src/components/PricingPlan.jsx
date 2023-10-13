@@ -7,21 +7,28 @@ const PricingPlan = () => {
         alignItems: 'center',
         textAlign: 'center',
         paddingTop: '20px', // Add padding to center vertically
-      };      
+      }; 
+
+      const redprice = {
+        color: 'red',
+      }
+      
+      const price = {
+        color: 'red',
+      }
+      
     
   return (
     <div style={containerStyle}>
      <h4 style={{ fontFamily: "'Mr De Haviland', cursive", letterSpacing: '0.95px', color: '#ff5c8a' }}>Pricing Plan</h4>
       <h2>SERVICES & PRICING</h2>
-      <div>
         <div>
           <h4>INTIMATE WAXING</h4>
-          <h5>FULL BRAZILIAN ......................................................... KSH 700</h5>
-          <h5>UNDER ARMS ............................................................ KSH 350</h5>
-          <h5>FULL BRAZILIAN + UNDER ARMS .......................... KSH 950</h5>
-          <h5>MAZNILIAN .............................................................. KSH 1500</h5>
-          <h5>MANZILIAN + UNDER ARMS .................................. KSH 2000</h5>
-        </div>
+          <h5><span class="price">FULL BRAZILIAN</span> ......................................................... <span class= 'red-price'>KSH 700</span></h5>
+          <h5><span class="price"> UNDER ARMS</span> ............................................................ <span class='red-price'>KSH 350</span></h5>
+          <h5><span class="price"></span> FULL BRAZILIAN + UNDER ARMS .......................... <span class='red-price'>KSH 950</span></h5>
+          <h5><span class="price">MAZNILIAN </span>.............................................................. <span class='red-price'>KSH 1500</span></h5>
+          <h5><span class="price">MANZILIAN + UNDER ARMS</span> .................................. <span class='red-price'>KSH 2000</span></h5>
         <div>
         <div>
           <h4>VAJACIAL</h4>
