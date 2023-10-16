@@ -3,10 +3,18 @@ import React from 'react';
 const PricingPlan = () => {
   const containerStyle = {
     display: 'flex',
+    flexDirection: 'column', // Stack elements vertically on smaller screens
     alignItems: 'center',
-    justifyContent: 'center',
     textAlign: 'center',
     paddingTop: '20px',
+    padding: '10px', // Add padding for better spacing on smaller screens
+  };
+
+  const responsiveColumnContainerStyle = {
+    display: 'flex',
+    flexDirection: 'column', // Stack columns vertically on smaller screens
+    flex: 1,
+    padding: '10px', // Add padding for better spacing on smaller screens
   };
 
   const sectionTitleStyle = {
@@ -28,12 +36,38 @@ const PricingPlan = () => {
     textAlign: 'center'
   }
 
+  const columnContainerStyle = {
+    display: 'flex',
+    flex: 1,
+    justifyContent: 'space-between', // Create space between columns
+  };
+
   const leftColumnStyle = {
     flex: 2, // Make the left column flexible
+    padding: '10px'
   };
 
   const rightColumnStyle = {
     flex: 1, // Make the right column flexible
+    padding: '10px'
+  };
+
+   // Media query for screens with a max-width of 768px (adjust as needed)
+   const mediaQueryStyles = {
+    '@media (max-width: 768px)': {
+      responsiveContainerStyle: {
+        padding: '5px', // Further reduce padding for small screens
+      },
+      responsiveColumnContainerStyle: {
+        padding: '5px',
+      },
+      responsiveLeftColumnStyle: {
+        flex: 'unset', // Reset flex property for small screens
+      },
+      responsiveRightColumnStyle: {
+        flex: 'unset', // Reset flex property for small screens
+      },
+    },
   };
 
 
@@ -42,7 +76,8 @@ const PricingPlan = () => {
     <div style={titleStyle}><h4>Pricing Plan</h4>
     <h2 style={{ color: '#ff5c8a' }}>SERVICES & PRICING</h2>
     </div>
-    <div style={containerStyle}>
+    <div style={{ ...containerStyle, ...mediaQueryStyles.responsiveContainerStyle }}>
+        <div style={{ ...responsiveColumnContainerStyle, ...mediaQueryStyles.responsiveColumnContainerStyle }}>
     <div style={leftColumnStyle}>       
       <div style={serviceGroupStyle}>
         <h4>INTIMATE WAXING</h4>
@@ -145,6 +180,7 @@ const PricingPlan = () => {
         <h5>
           PLAIN POLISH ON TOES............................................................. <span style={redPriceStyle}>KSH 100</span>
         </h5>
+      </div>
       </div>
       </div>
     </div>
