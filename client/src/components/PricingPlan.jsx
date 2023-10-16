@@ -82,15 +82,15 @@ const PricingPlan = () => {
       <div style={serviceGroupStyle}>
         <h4>INTIMATE WAXING</h4>
         <h5>
-          FULL BRAZILIAN{'.................................................................................. '}
+          FULL BRAZILIAN{'....................................................................................... '}
           <span style={redPriceStyle}>KSH 700</span>
         </h5>
         <h5>
-          UNDER ARMS{'........................................................................................ '}
+          UNDER ARMS{'............................................................................................ '}
           <span style={redPriceStyle}>KSH 350</span>
         </h5>
         <h5>
-          FULL BRAZILIAN + UNDER ARMS{'....................................................... '}
+          FULL BRAZILIAN + UNDER ARMS{'........................................................... '}
           <span style={redPriceStyle}>KSH 950</span>
         </h5>
         <h5>
@@ -133,52 +133,52 @@ const PricingPlan = () => {
           FULL LEG (THIGH TO TOE)....................................................................... <span style={redPriceStyle}>KSH 1400</span>
         </h5>
         <h5>
-          HALF LEG (KNEE TO TOE)...................................................................... <span style={redPriceStyle}>KSH 900</span>
+          HALF LEG (KNEE TO TOE).......................................................................... <span style={redPriceStyle}>KSH 900</span>
         </h5>
         <h5>
-          FULL HAND (FROM SHOULDER)........................................................... <span style={redPriceStyle}>KSH 900</span>
+          FULL HAND (FROM SHOULDER)............................................................... <span style={redPriceStyle}>KSH 900</span>
         </h5>
         <h5>
-          HALF HAND (FROM SHOULDER).......................................................... <span style={redPriceStyle}>KSH 500</span>
+          HALF HAND (FROM SHOULDER)............................................................... <span style={redPriceStyle}>KSH 500</span>
         </h5>
-        <h5>FACE WAXING......................................................................................... <span style={redPriceStyle}>KSH 300</span></h5>
+        <h5>FACE WAXING.............................................................................................. <span style={redPriceStyle}>KSH 300</span></h5>
       </div>
       </div>
       <div style={rightColumnStyle}>
       <div style={serviceGroupStyle}>
         <h4>MANICURE</h4>
         <h5>
-          CLASSIC MANICURE.................................................................... <span style={redPriceStyle}>KSH 300</span>
+          CLASSIC MANICURE.................................................................................. <span style={redPriceStyle}>KSH 300</span>
         </h5>
         <h5>
-          PLAIN GEL NATURAL NAILS....................................................... <span style={redPriceStyle}>KSH 400</span>
+          PLAIN GEL NATURAL NAILS..................................................................... <span style={redPriceStyle}>KSH 400</span>
         </h5>
         <h5>
-          TIPS/STICKONS + GEL.................................................................. <span style={redPriceStyle}>KSH 500</span>
+          TIPS/STICKONS + GEL................................................................................ <span style={redPriceStyle}>KSH 500</span>
         </h5>
         <h5>
-          MAINCURE + GEL...................................................................... <span style={redPriceStyle}>KSH 700</span>
+          MAINCURE + GEL........................................................................................ <span style={redPriceStyle}>KSH 700</span>
         </h5>
         <h5>
-          OVERLAY + STICK ONS............................................................ <span style={redPriceStyle}>KSH 950</span>
+          OVERLAY + STICK ONS............................................................................... <span style={redPriceStyle}>KSH 950</span>
         </h5>
         <h5>
-          OVERLAYS ON NATURAL NAILS.............................................. <span style={redPriceStyle}>KSH 700</span>
+          OVERLAYS ON NATURAL NAILS............................................................... <span style={redPriceStyle}>KSH 700</span>
         </h5>
       </div>
       <div style={serviceGroupStyle}>
         <h4>PEDICURE</h4>
         <h5>
-          CLASSIC PEDICURE................................................................... <span style={redPriceStyle}>KSH 400</span>
+          CLASSIC PEDICURE......................................................................................... <span style={redPriceStyle}>KSH 400</span>
         </h5>
         <h5>
-          PEDICURE + NORMAL POLISH................................................. <span style={redPriceStyle}>KSH 500</span>
+          PEDICURE + NORMAL POLISH..................................................................... <span style={redPriceStyle}>KSH 500</span>
         </h5>
         <h5>
-          PEDICURE + GEL POLISH............................................................<span style={redPriceStyle}>KSH 750</span>
+          PEDICURE + GEL POLISH...............................................................................<span style={redPriceStyle}>KSH 750</span>
         </h5>
         <h5>
-          PLAIN POLISH ON TOES............................................................. <span style={redPriceStyle}>KSH 100</span>
+          PLAIN POLISH ON TOES............................................................................... <span style={redPriceStyle}>KSH 100</span>
         </h5>
       </div>
       </div>
