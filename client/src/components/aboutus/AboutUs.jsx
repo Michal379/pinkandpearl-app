@@ -4,7 +4,7 @@ import image from '../../images/download.jpeg'; // Import the image
 
 const AboutUs = () => {
   return (
-    <div className="container">
+    <div className="about-container">
       <div className="image">
         <img src={image} alt="About Us" /> 
       </div>

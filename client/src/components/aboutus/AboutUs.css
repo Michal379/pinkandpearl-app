@@ -1,4 +1,4 @@
-.container {
+.about-container {
   display: flex; /* Use flexbox to create a two-column layout */
   align-items: center; /* Vertically center the content */
   justify-content: space-between; /* Add space between the image and text */

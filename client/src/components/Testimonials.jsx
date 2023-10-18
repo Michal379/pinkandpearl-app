@@ -43,7 +43,9 @@ const Testimonials = () => {
     infinite: true, 
     speed: 500, 
     slidesToShow: 1, 
-    slidesToScroll: 1, 
+    slidesToScroll: 1,
+    autoplay: true, // Auto-play the testimonials
+    autoplaySpeed: 5000, // Adjust the speed of auto-play (5 seconds)
   };
 
   const starStyle = {
@@ -95,14 +97,14 @@ const Testimonials = () => {
 
   return (
     <section className="reviews" style={containerStyle}>
-      <h2 style={textStyles}>Google Reviews</h2>
-      <div className="container">
-        <Slider {...sliderSettings}>
-        <div className="row">
-          {reviewData.map((review, index) => (
-            <div className="col-md-12" key={index}>
+    <h2 style={textStyles}>Google Reviews</h2>
+    <div className="container">
+      <Slider {...sliderSettings}>
+        {reviewData.map((review, index) => (
+          <div className="row" key={index}>
+            <div className="col-md-12">
               <div className="review">
-                <div className="review-info">
+              <div className="review-info">
                   <img src={review.avatarUrl} alt={`Reviewer ${index + 1}`} />
                   <div className="reviewer-details">
                     <h4>
@@ -130,8 +132,8 @@ const Testimonials = () => {
                 </p>
               </div>
             </div>
+            </div>
           ))}
-        </div> 
         </Slider>       
       </div>
       <div className="center-content">
