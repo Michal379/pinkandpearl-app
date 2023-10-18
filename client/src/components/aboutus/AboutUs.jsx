@@ -12,7 +12,7 @@ const AboutUs = () => {
         <h2 className='abouth2'>About Us</h2>
         <h2 className='h2h2h2'>AFFORDABLE WAXING IN </h2>
         <h2 className='h2h2h2'>NAIROBI</h2>
-        <p>
+        <p className='text'>
           <p>
           Welcome to the best waxing parlor in Nairobi, where Quality and </p>         
          <p> Affordable are mentioned on the same line.. We specialize in waxing   </p>       

@@ -169,7 +169,8 @@ const PricingPlan = () => {
       <div style={serviceGroupStyle}>
         <h4>PEDICURE</h4>
         <h5>
-          CLASSIC PEDICURE......................................................................................... <span style={redPriceStyle}>KSH 400</span>
+          CLASSIC PEDICURE...................................................................
+          ...................... <span style={redPriceStyle}>KSH 400</span>
         </h5>
         <h5>
           PEDICURE + NORMAL POLISH..................................................................... <span style={redPriceStyle}>KSH 500</span>
