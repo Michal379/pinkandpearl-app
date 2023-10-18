@@ -14,8 +14,8 @@ const Map = () => {
   const mapContainerStyle = {
     display: 'flex',
     justifyContent: 'center', // Center maps horizontally
-    alignItems: 'center', // Center maps vertically
-    height: '100vh', // Make the container full height of the viewport
+    alignItems: 'center', 
+    height: '70vh', // Make the container full height of the viewport
     textAlign: 'center',
     gap: '20px'
   };
