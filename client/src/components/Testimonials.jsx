@@ -97,7 +97,8 @@ const Testimonials = () => {
 
   return (
     <section className="reviews" style={containerStyle}>
-    <h2 style={textStyles}>Google Reviews</h2>
+    <h3 style={{ color: 'rgb(255, 123, 167)' }}>Google Reviews</h3>
+    <h1 style={{ color: 'black' }}>WHAT PEOPLE SAY ABOUT US</h1>
     <div className="container">
       <Slider {...sliderSettings}>
         {reviewData.map((review, index) => (
@@ -137,9 +138,9 @@ const Testimonials = () => {
         </Slider>       
       </div>
       <div className="center-content">
-          <h4>
+      <h4>
             <a
-              href="https://www.google.com/search?q=pinkandpearlwaxingbar&oq=pinkandpearlwaxingbar&gs_lcrp=EgZjaHJvbWUqBggAEEUYOzIGCAAQRRg7Mg8IARAuGA0YrwEYxwEYgAQyBggCEEUYPDIGCAMQRRg8MgYIBBBFGDwyBggFEEUYPDIGCAYQRRg80gEIODQxOWowajeoAgCwAgA&sourceid=chrome&ie=UTF-8#lrd=0x182f117173d9a8f7:0x80601aef4f20c9ee,1,,,,"
+              href="https://www.google.com/search?q=pink+and+pearl+waxing+bar.com&sca_esv=574726742&sxsrf=AM9HkKmjHSUsfYXk_Z_thh_STeCSdMuLpQ%3A1697699124657&ei=NNUwZeTfJ4KRgQbOjLbADA&ved=0ahUKEwjkyYqKxoGCAxWCSMAKHU6GDcgQ4dUDCBA&uact=5&oq=pink+and+pearl+waxing+bar.com&gs_lp=Egxnd3Mtd2l6LXNlcnAiHXBpbmsgYW5kIHBlYXJsIHdheGluZyBiYXIuY29tMggQIRigARjDBDIIECEYoAEYwwQyCBAhGKABGMMEMggQIRigARjDBEiwMFCNDVjhJ3ABeACQAQCYAa8DoAGTG6oBBzItNC42LjG4AQPIAQD4AQHiAwQYASBBiAYB&sclient=gws-wiz-serp#lrd=0x182f117173d9a8f7:0x80601aef4f20c9ee,1,,,,"
               target="_blank"
               rel="noopener noreferrer"
               style={textStyles}

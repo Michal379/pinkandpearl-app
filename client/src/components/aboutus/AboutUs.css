@@ -2,26 +2,24 @@
   display: flex; /* Use flexbox to create a two-column layout */
   align-items: center; /* Vertically center the content */
   justify-content: space-between; /* Add space between the image and text */
+  padding: 20px; /* Add some padding for spacing */
   padding: 80px; 
 }
 
 .image {
   flex: 1; /* Allow the image to grow and take up available space */
-  margin-right: 150px; /* Add some margin to the right of the image */
 }
 
 .image img {
+  max-width: 100%; 
   max-width: 120%; 
   height: auto; 
 }
 
-.abouth2{
-  font-family: "Mr De Haviland",cursive;
-  color: #ff5c8a;;
-}
-
 .text {
   flex: 1; 
+  font-size: 12px; 
+
+
   font-size: 12.5px;
 }
-

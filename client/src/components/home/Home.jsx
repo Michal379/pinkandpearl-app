@@ -6,7 +6,7 @@ import AboutUs from '../aboutus/AboutUs';
 import Services from '../services/Services';
 import Gallery from '../gallery/Gallery';
 import ContactUs from '../contactus/ContactUs';
-// import Testimonials from '../Testimonials';
+import Testimonials from '../Testimonials';
 import PricingPlan from '../PricingPlan';
 
 const Home = () => {
@@ -14,7 +14,7 @@ const Home = () => {
 
   const images = [
     "https://cdn.standardmedia.co.ke/images/wysiwyg/images/LvZBSf7NyEr7eYcfyjUmX3Yd3h1XhJEyTbiuyYBD.jpg",
-    "https://pinkandpearlwaxingbar.com/wp-content/uploads/2023/02/gallery-02.jpg",
+     "https://pinkandpearlwaxingbar.com/wp-content/uploads/2023/02/gallery-05.jpg",
     "https://pinkandpearlwaxingbar.com/wp-content/uploads/2023/02/WhatsApp-Image-2023-02-08-at-2.13.34-PM-2.jpeg",
   ];
 
@@ -70,7 +70,7 @@ const Home = () => {
       {/* Render the AboutUs component */}
       <AboutUs />
       <Services />
-      {/* <Testimonials /> */}
+      <Testimonials />
       <PricingPlan />
       <Gallery />
       <ContactUs />

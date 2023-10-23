@@ -43,7 +43,7 @@ const ContactUs = () => {
    // Style for the form elements to increase their size
    const formElementStyle = {
     fontSize: '18px', // Adjust the font size as needed
-    padding: '10px', // Adjust the padding as needed
+    padding: '25px', // Adjust the padding as needed
   };
 
 return (

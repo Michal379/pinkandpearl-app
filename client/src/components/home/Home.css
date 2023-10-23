@@ -1,4 +1,7 @@
-/* Home.css */
+.home-container {
+  height: 200vh !important; /* Set the height to 100% of the viewport height */
+}
+
 .carousel-caption {
     display: flex;
     flex-direction: column;
