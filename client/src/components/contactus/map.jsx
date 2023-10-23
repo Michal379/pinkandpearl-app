@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import Updates from '../Updates';
 
 const Map = () => {
   const [isZoomedIn, setIsZoomedIn] = useState(false);
@@ -27,6 +28,7 @@ const Map = () => {
   }; 
 
   return (
+    <>
     <div style={mapContainerStyle}>
       <div>
         <iframe
@@ -55,6 +57,9 @@ const Map = () => {
         </div>
       </div>
     </div>
+    <Updates />
+    </>
+
   );
 };
 
