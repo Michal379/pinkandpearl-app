@@ -31,6 +31,16 @@ const Updates = () => {
         <p>If you feel tired and stressed after a working day, we are happy to provide</p>
         <p>a wide range of relaxation massage therapy.</p>
         </p>
+        <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center' }}>
+        <div style={{ marginRight: '10px', marginTop: '20px' }}>
+          <input type="text" placeholder="Enter email address" />
+        </div>
+        <button style={{ backgroundColor: 'pink', color: 'white', border: 'none', marginTop: '20px' }}>Subscribe</button>
+        </div>
+        <div  style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', marginTop: '20px' }}>
+          <input type="radio" id="privacyPolicy" name="privacyPolicy" />
+          <label htmlFor="privacyPolicy" style={{ color: 'red' }}>I agree to the privacy policy</label>
+        </div>
     </div>
   )
 }
