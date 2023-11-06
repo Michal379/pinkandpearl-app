@@ -8,6 +8,7 @@ import Gallery from '../gallery/Gallery';
 import ContactUs from '../contactus/ContactUs';
 import Testimonials from '../Testimonials';
 import PricingPlan from '../PricingPlan';
+import Recents from '../Recents';
 
 const Home = () => {
   const [activeIndex, setActiveIndex] = useState(0);
@@ -73,6 +74,7 @@ const Home = () => {
       <Testimonials />
       <PricingPlan />
       <Gallery />
+      <Recents />
       <ContactUs />
     </div>
   );
